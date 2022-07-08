@@ -10,7 +10,7 @@ use indicatif::{ProgressBar, ProgressStyle};
 fn main() -> color_eyre::Result<()> {
     color_eyre::install()?;
     println!(
-        "--- Height Calculator tool --- v{} --- ",
+        "--- Height Caculator tool --- v{} --- ",
         env!("CARGO_PKG_VERSION")
     );
 
@@ -18,7 +18,7 @@ fn main() -> color_eyre::Result<()> {
         .with_prompt("Input your height")
         .interact_text()?;
 
-    let pb = ProgressBar::new(2000).with_prefix("Calculating...");
+    let pb = ProgressBar::new(2000).with_prefix("Caculating...");
     pb.set_style(ProgressStyle::default_bar().template("{prefix} {wide_bar}"));
     let start = Instant::now();
     while start.elapsed() < Duration::from_secs(2) {
