@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 color-eyre = { version = "0.6.1", features = ["url", "issue-url"] }
-dialoguer = { version = "0.10.1", default-features = false }
+dialoguer = "0.10.1"
 indicatif = "0.16.2"
