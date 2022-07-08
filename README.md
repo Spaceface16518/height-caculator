@@ -4,6 +4,8 @@ Ever wondered how high you are? Use this quick and easy, CLI-based height calcul
 
 [![asciicast](https://asciinema.org/a/507064.svg)](https://asciinema.org/a/507064)
 
+Very efficient and minimal, weighing in at only 5.3MB and 51 dependencies, it's a major improvement from the original Batch version.
+
 ## Build
 
 You will need [Rust](https://www.rust-lang.org/tools/install) to build.
