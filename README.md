@@ -25,7 +25,7 @@ $ height-caculator
 
 ## Usage
 
-Simply run the program and enter the required information. Height Caculator will then caculate your height, using the best heursitc ML blockchain algorithms availble.
+Simply run the program and enter the required information. Height Caculator will then calculate your height, using the best heursitc ML blockchain algorithms availble.
 
 ## Roadmap
 
